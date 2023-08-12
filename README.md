@@ -127,28 +127,8 @@ def mouth_aspect_ratio(mouth):
 
 ## Results:
 
-The GUI has been created using basic HTML, CSS and JavaScript and we have used Flask to render the python code into the website. Tkinter has also been used in order to make things simpler. It has 2 buttons: Run and Exit. The GUI looks like:
-![df01ae7c-afc9-4676-b95b-b6cec592ddf0 (online-video-cutter com) (1)](https://user-images.githubusercontent.com/35571958/87902089-589f2d80-ca76-11ea-9eda-a53a83662721.gif)
-
-## Streaming using Phone Camera
-
-We have used and Android App available for free in Play Store, named IP Webcam. It can be downloaded from this `<a href = "https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_IN">`link`</a>`. After downloading it, open the app and scroll down to the option `<b>`Start Server`</b>`. It will look like: `<br>`
-`<img src = "https://user-images.githubusercontent.com/35571958/88623867-83673280-d0c3-11ea-9efd-63559024c0bd.jpg">`
-
-After starting the server, an IP will be displayed on the screen. Open the file `<b>`android_cam.py`</b>`. In `<b>`line 36`</b>` put the given IP.
-
-```python
-url = "http://<YOUR_IP_HERE>/shot.jpg"
-```
-
-`<b>`Also, make sure that the phone and PC/Laptop is connected to the same network.`</b>`
-
-Then, run the system in the same way as mentioned above. Click on the `<b>`Run Using Phone Cam`</b>` button to see the results:`<br>`
-`<img src = "https://user-images.githubusercontent.com/35571958/88624933-7b0ff700-d0c5-11ea-87da-3f6bf1516cc3.png">`
-
-Also, in order to toggle between the front and back camera, type the IP upto "http://<YOUR_IP_HERE>" in the search bar of yor browser and explore the page which will look like this: `<br>`
-`<img src = "https://user-images.githubusercontent.com/35571958/88626505-5f5a2000-d0c8-11ea-88f0-e1d4481eb9d9.png">`
-
+The GUI has been created using basic HTML, CSS and JavaScript and we have used Flask to render the python code into the website. Tkinter has also been used in order to make things simpler. It has 2 buttons: Run and Exit. 
+#
 Also, we have tried plotting the MAR and EAR graph Vs. Time in order to make the working clearer to the audience. The graph looks like: `<br>`
 `<img src = "https://user-images.githubusercontent.com/35571958/88627012-42721c80-d0c9-11ea-860a-51b7a1f2961b.png">`
 
